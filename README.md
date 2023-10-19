@@ -31,7 +31,7 @@ classDiagram
     - icon: String
     - description: String
   }
-  User --> Account
-  User --> Features 
-  User --> Cards
-  User --> News
+  User *-- Account
+  User *-- Features 
+  User *-- Cards
+  User *-- News
